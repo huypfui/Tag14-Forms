@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.header {
+    
+    color: white;
+    background-color:cadetblue;
+    height: 100px;
+    margin: auto;
+    padding: 25px 50px 25px 20px
+}
+
+
+
