@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+}
+
+span {
+    color:red;
+}
+
+section {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.name input {
+    border: 2px solid grey;
+}
+
+.mail input {
+    width: 335px;
+    border: 2px solid grey;
+}
+.mail input:focus {
+    border: 2px solid lightgreen;
+}

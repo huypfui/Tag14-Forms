@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev2_3_html-vertiefung_forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <form>
+        <fieldset>
+        <legend>Register form</legend>
+        <section>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name">
+        </section>
+        <section>
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" placeholder="Surname">
+        </section>
+        <section>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="EMail">
+        </section>
+        <section>
+            <label for="gender">Gender</label> 
+            <input type="radio" name="gender" id="Male">
+            <label for="html">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="html">Female</label>
+        </section>
+        <section>
+            <label for="image">Picture</label> <input type="file" name="image" id="image" placeholder="Choose file">
+        </section>
+        <section>
+            <label for="country">Country</label> 
+            <select name="country" id="country">
+                    <option value="germany">Germany</option>
+                    <option value="spain">Spain</option>
+                    <option value="france" selected>france</option>
+            </select>
+        </section>
+        <section>
+            <label for="language">Preferred languages</label>
+            <select multiple="multiple" name="language" id="language">
+                <option value="html">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="javascript">JS</option>
+                <option value="react">React</option>
+            </select>
+            To choose multiple use cmd key
+        </section>
+
+        <section class="activity">
+            Field of activity
+            <input type="checkbox" name="activity" id="it">
+            <label for="activity">IT</label>
+            <input type="checkbox" name="activity" id="design">
+            <label for="activity">Design</label>
+            <input type="checkbox" name="activity" id="other">
+            <label for="activity">Other</label>
+        </section>
+
+        <section>
+            <input type="submit" value="send">
+            <input type="button" value="cancel">
+        </section>
+        </fieldset>
+        </form>
+    </main>
+</body>
+</html>
